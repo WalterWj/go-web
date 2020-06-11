@@ -27,7 +27,6 @@ tests/
 
 # pkg
 !pkg/WalterWj/*
-pkg/*
 
 # src
 !src/github.com/WalterWj/*
