@@ -1,0 +1,38 @@
+.idea/go-study.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+
+
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# go
+# /test/test.go
+
+# debug
+*debug*
+
+# dir
+/bin
+.idea/
+../.idea/
+
+# test
+!tests/test/*.go
+tests/
+
+# pkg
+!pkg/WalterWj/*
+pkg/*
+
+# src
+!src/github.com/WalterWj/*
+src/*
+
+# file
+test.txt
+tests/test/test.code-workspace
