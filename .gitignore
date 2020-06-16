@@ -10,6 +10,16 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# File
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.tar
+*.gz
+*.xz
+
 # go
 # /test/test.go
 
@@ -20,10 +30,19 @@ Desktop.ini
 /bin
 .idea/
 ../.idea/
+vendor/
 
 # test
 !tests/test/*.go
 tests/
+/tests/_tmp/
+
+# file
+test.txt
+tests/test/test.code-workspace
+
+# logs
+/logs
 
 # pkg
 !pkg/WalterWj/*
@@ -31,7 +50,3 @@ tests/
 # src
 !src/github.com/WalterWj/*
 src/*
-
-# file
-test.txt
-tests/test/test.code-workspace
