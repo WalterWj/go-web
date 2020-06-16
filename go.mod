@@ -1,3 +1,3 @@
-module pkg/github.com/Walterwj/main.go
+module github.com/WalterWj/go-web
 
 go 1.14
