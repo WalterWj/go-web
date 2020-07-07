@@ -23,7 +23,7 @@ clean:
 	rm -f $(BINARY_NAME)
 	rm -f $(BINARY_UNIX)
 run:
-	$(GORUN) -n main.go
+	$(GORUN) -n web.go
 deps:
 	$(GOGET) github.com/Walterwj/go-web
 
